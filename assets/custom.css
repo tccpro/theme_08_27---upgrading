@@ -1,0 +1,38 @@
+.hide {
+  display: none !important;
+}
+#shopify-section-announcement-bar.shopify-section.shopify-announcement-box {
+  z-index: -1;
+}
+
+.badge.badge-size-small { 
+  font-size: 14px;
+}
+
+.badge.badge-size-medium {
+  font-size: 18px;
+}
+
+.badge.badge-size-large {
+  font-size: 20px;
+}
+
+.badge.price__badge-sale {
+  margin-bottom: 0px;
+}
+
+.badge.price__badge-sold-out {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 749px) {
+  .badge.badge-size-small {
+    font-size: 14px;
+  }
+  .badge.badge-size-medium {
+    font-size: 18px;
+  }
+  .badge.badge-size-large {
+    font-size: 20px;
+  }
+}
